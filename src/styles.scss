@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+@import "@angular/material/prebuilt-themes/deeppurple-amber.css";
+app-root {
+  background-color: lightgrey;
+  height: 100vh;
+}
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+.mat-tab-body-content {
+  background-color: #eee;
+  height: 100vh !important;
+
+  .inner-wrapper {
+    margin-left: 50px;
+    margin-right: 50px;
+
+    mat-card {
+      height: 70vh;
+    }
+  }
+}
